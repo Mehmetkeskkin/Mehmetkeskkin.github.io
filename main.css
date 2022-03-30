@@ -5,7 +5,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(107, 6, 6); 
+    color: #6B0606; 
 
 }
 #textBody {
@@ -22,7 +22,7 @@
     bottom: 0;
     width: 0;
     height: 2px;
-    background-color: rgb(13, 148, 211);
+    background-color: #0D94D3;
     transition: width 0.90s ease-out;
     
 }
@@ -38,7 +38,7 @@
     top: 0;
     width: 0;
     height: 2px;
-    background-color: rgb(13, 148, 211);
+    background-color: #0D94D3;
     transition: width 0.90s ease-out;
     
 }
@@ -55,7 +55,7 @@
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
-    background: blanchedalmond;
+    background: #FFEBCD;
     color: rgb(7, 121, 121);
 }
 
