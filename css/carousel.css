@@ -1,0 +1,57 @@
+#townhall .col-md-4{
+    display: inline-block;
+    margin-left:-4px;
+  }
+  #townhall .col-md-4 img{
+    width:100%;
+    height:auto;
+  }
+  
+  /*.carousel-control-prev {
+      background: rgb(2,0,36);
+      background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(2,0,36,0) 100%);
+  }
+  .carousel-control-next {
+      background: rgb(2,0,36);
+      background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+  }*/
+  
+  .carousel-control-prev-icon {
+      background: url(../img/arrow-left.png);
+      height: 44px;
+      width: 44px;
+      position: relative;
+      left: -44px;
+  }
+  .carousel-control-next-icon{
+      background: url(../img/arrow-right.png);
+      height: 44px;
+      width: 44px;
+      position: relative;
+      right: -44px;
+  }
+  #townhall .card { border-radius: 24px !important; overflow:hidden; 
+  }
+  
+  #townhall .post-divider {
+      width: 55px;
+      border-bottom: 2px solid #1a878f;
+  }
+  #townhall .post-title {
+      font-size:24px;
+      font-weight: 800;
+  }
+  #townhall .post-date {
+      font-size: 16px;
+  }
+  #townhall .card-img-overlay {
+    position:absolute;
+    bottom:15px;
+    top: auto;
+    height: auto !important;
+  }
+  .no-padding{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  

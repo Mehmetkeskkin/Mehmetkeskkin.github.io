@@ -1,0 +1,194 @@
+/* Town Hall */
+.blog-background {
+	height: 520px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+/* End Town Hall */
+
+/* Games */
+#games { margin-bottom:62px; }
+#games .carousel-inner {
+    overflow: initial !important;
+}
+#games .carousel-item .card {
+    border-radius: 14px !important;
+    overflow: hidden;
+}
+#games .background_image {
+	height: 560px;
+	background-position: center;
+	background-size:cover;
+}
+.game-logo {
+	position:absolute;
+	top:-70px;
+	left:0;
+}
+.game-description {
+	position:absolute;
+	top:-70px;
+	left:0;
+	font-weight: 500;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+}
+.game-description .discover {
+	color: #44ed6e;
+	margin-bottom:0;
+}
+.game-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color:#000;
+    right: 0 !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+/* End Games */
+
+/* Join Up! */
+#recruitCarousel .carousel-item {
+	opacity: 0;
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+}
+
+#recruitCarousel .active {
+	opacity: 1;
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+}
+.joinup {
+	background: url(../img/ship-back.jpg) top left repeat-x;
+}
+.joinup .ahoy {
+	background: url(../img/Egg\ Master-Logo.jpg) center center no-repeat;
+	height: 563px;
+}
+.joinup .recruit {
+	height:620px;
+	position:relative;
+	top:-25px;
+	overflow: hidden;
+	border-radius: 14px !important;
+	-webkit-box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+}
+.joinup .recruit .card-footer {
+	background-color: #1a878f;
+	color: #ffffff;
+	font-weight: 400;
+	text-align: center;
+}
+.joinup .carousel-inner {
+    overflow: initial !important;
+}
+.joinup .looking {
+	font-style: italic;
+}
+.joinup h3 {
+	font-size:32px;
+	font-weight: 700;
+}
+.joinup .see-all {
+	font-size: 18px;
+	padding-left: 80px;
+	font-weight: 700;
+}
+.joinup .divider {
+	border-bottom:2px solid #1a878f;
+	width: 35%;
+	margin-bottom:15px;
+}
+.joinup .subheader {
+	color: #1a878f;
+	font-weight: 700;
+}
+.joinup .carousel-control-prev {
+	left: -68px;
+}
+.joinup .carousel-control-next {
+	right: -68px;
+}
+.joinup .carousel-control-prev .carousel-control-prev-icon,
+.joinup .carousel-control-next .carousel-control-next-icon {
+	left: 0;
+}
+/* End Join Up! */
+
+/* Our Pals */
+#ourpals { margin-top:65px; }
+#ourpals .section-header {
+	line-height: 95px;
+	font-size: 48px;
+	font-weight: 900;
+	padding-bottom:5px;
+	margin:25px 0 -10px 0;
+	z-index: 99999;
+}
+#ourpals .section-divider {
+	border-bottom:4px solid #1a878f;
+	width: 68px;
+	margin-bottom:10px;
+}
+#ourpals .tab-holder {
+	background-color: #f7f7f7;
+	padding-bottom:15px;
+}
+#ourpals .nav {
+	margin-top:17px;
+	border-left: 2px solid #d1d1d1;
+	border-right: 2px solid #d1d1d1;
+}
+#ourpals .active {
+	background: transparent;
+}
+#ourpals .nav-link { position:relative; }
+#ourpals .active .arrow-up {
+	width: 0;
+	height: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 12px solid #e5e5e5;
+	position:absolute;
+	bottom:-15px;
+	left:44%;
+}
+#ourpals .nav-link .pal {
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 98px;
+	width: 150px;
+}
+#ourpals .tabs {
+	background-color: #e5e5e5;
+}
+#ourpals .tab-pane {
+	margin:35px 0;
+	font-weight:500;
+}
+#ourpals .reference-link {
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.63;
+	letter-spacing: normal;
+	text-align: center;
+	background: #000000;
+    color: #ffffff;
+    margin-top:25px;
+}
+/* End Our Pals*/
