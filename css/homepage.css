@@ -2,7 +2,7 @@
 .blog-background {
 	height: 520px;
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-size:cover;
 }
 /* End Town Hall */
